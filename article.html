@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Article</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>History about Internet in Singapore</h1>
+
+    <div id="article"></div>
+
+    <script id="article-card-template" type="text/x-handlebars-template">
+
+        <article onclick="window.location.href='article.html?id={{id}}'">
+
+            <h2>{{title}}</h2>
+
+            <p>{{description}}</p>
+
+        </article>
+
+    </script>
+    <a href="index.html">Return to Main Page</a>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.8/handlebars.min.js"></script>
+
+    <script src="Main.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,34 @@
+{
+    "mainpage": [
+        {
+            "id": 1,
+            "title": "The History of Internet in Singapore",
+            "description": "Learn about who laid the technical groundwork of Internet for Singapore."
+            
+        },
+        {
+            "id": 2,
+            "title": "Internet Service Providers",
+            "description": "Learn more about the ISPs in Singapore and how they improved their network."
+            
+        },
+        {
+            "id": 3,
+            "title": "Public Wireless Internet Access",
+            "description": "Government first step to providing Wireless Internet access in public areas."
+            
+        },
+        {
+            "id": 4,
+            "title": "Government and essential services.",
+            "description": "Learn about ways the internet is being used in everyday lives"
+            
+        },
+        {
+            "id": 5,
+            "title": "References",
+            "description": "Websites used"
+            
+        }
+    ]
+}

@@ -1,0 +1,85 @@
+{
+    "articles": [
+        {
+            "id": 1,
+            "title": "How He made it possible.",
+            "content": [
+                "Before getting into how it was made possible, we have to first find out who and how decided to develop it.",
+                 {
+                    "type": "image",
+                    "src": "Images/bernard_tan.jpg",
+                    "alt": "Professor Bernard Tan Tiong Gie",
+                    "caption":"Professor Bernard Tan Tiong Gie "
+                },
+                "In 1985, Professor Bernard Tan Tiong Gie, Dean of Science at National University of Singapore(NUS), was sent to Austin, Texas to participate in EDUCOM.",
+                "There, he learned more about BITNET. BITNET was a network that connected to other acadamics all over USA and Europe. It was a international academic computer network that supported email, file transfers and messaging. He realised that joining EDUCOM and BITNET would be crucial in improving the computing academics and networking with other countries. Furthermore, NUS was trying to improve its existing computer systems and created NUSNET in 1990.",
+                "In 1992, TechNet was launched as Singapore's first national R&D network. Before its launch, NUS, through Dr Thio Hoe Tong and Dr Tommi Chen, entered into discussions with the National Science and Technology Board (NSTB), Singtel and the Ministry of Trade and Industry (MTI) on how to extend the benefits of the Internet to the R&D community outside academia. With the support of Professor Lim Pin, these discussions led to the creation of TechNet. The network allowed R&D workers in academia, government and industry to collaborate more effectively.",
+                "These developments formed important foundations for the expansion of Internet access in Singapore. Public Internet access was later introduced in 1994."
+            ]
+            },
+        {
+            "id": 2,
+            "title": "ISPs in Singapore",
+            "content": [
+            "As mentioned in the article <a href=\"article.html?id=1\">'The History of Internet in Singapore'</a>, Mr Bernard laid the groundwork for internet in Singapore and was involved in the creation of Technet.",
+            "Although started out as a network for academics and R&D community. It was later then commericialised and launched as Pacific Internet(PacNet) under Sembawang Corp in 1995. The first public ISP was launched by Singtel in 1994, providing Internet access, and email. Users that have emails with singnet in it shows that they are one of Singapore's earliest digital adopters. Cyberway launched in 1996, allowing more choices for users and more competition for the ISPs. StarHub later bought over Cyberway in 1999.",
+            {
+                    "type": "image",
+                    "src": "Images/dialup_vs_broadband.gif",
+                    "alt": "dialup_vs_broadband",
+                    "caption":"Dialup vs Broadband"
+                },
+            "Before the broadbands Singapore use nowadays, they were using dial-up internet access where both a telephone line and a modem were required to provide internet access. In 1998, Singapore transitioned to broadband where performance is improved, while allowing both phone and internet usage without disruption.",
+            "During 2001 to 2010, with the transition to broadbands, there was heavy competition between the few ISPs, including the newly launched MobileOne(M1). Moving towards 2020, the Asymmetric Digital Subscriber Line(ADSL) and cable broadbands were upgraded to fiber broadbands which are much faster, able to handle more load. During these years, the ISP market was mainly dominated by Singtel, StarHub and M1.",
+            "While they were dominating the market with broadbands, they were also improving their mobile networks. With 4G mobile networks being widely used and 5G being increasingly adopted, Mobile Virtual Network Operators(MVNO) are showing up also they can be considered ISPs, they use another network operator's network and mainly provide mobile/data services. Zym and CirclesLife are some examples."
+            ]
+        },
+          {
+            "id": 3,
+            "title": "Public wireless internet access",
+            "content": [
+                 {
+                    "type": "image",
+                    "src": "Images/wirelessSG.png",
+                    "alt": "Wireless@SG",
+                    "caption":"Wireless@SG"
+                },
+            "After broadbands were made widely available in the 2000s, Singapore turned to trying to promote wireless internet access while also allowing laptop users have access to internet on the go, promoting the use of broadband while providing free internet access. This became a reality when the government launched Wireless@SG in 2006.",
+            "Working with network operators, Wireless@SG started with 900 hotspots around the nation. Slowly increasing over the years, more than 3800 hotspots as of March 2026. Allowing more users to get connected to the internet and at more places as well."
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Incoporating Internet to daily lives",
+            "content": [
+                 {
+                    "type": "image",
+                    "src": "Images/singpass.avif",
+                    "alt": "Singpass",
+                    "caption":"Singpass"
+                },
+            "As performance of internet improves, Singapore also made use of it to improve quality of life for its citizens. Such examples are Singpass to access government websites quickly, and even HealthHub that allows people to view their health records, medical appointments and other healthcare information online.",
+            "Banking services also made easy, and more shops using digital payments such as PayNow, and using QR codes to pay on the spot. Nowadays, schools are also using internet to help improve ways to teach students, and accessing resources.",
+            "Internet has become an important part of everyday life of Singaporeans, as these services are being moved online, allowing people to access them conveniently."
+        ]
+        },
+         {
+            "id": 5,
+            "title": "Reference",
+            "content": [
+            "<a href=\"https://phyweb.physics.nus.edu.sg/~phytanb/bitnet4.htm\">The Origins of Internet in Singapore</a>", 
+            "<a href=\"https://www.tech.gov.sg/technews/history-of-the-internet/?utm_source=chatgpt.com\">History of internet in Singapore: From academic link to 5G digital future</a>", 
+            "<a href=\"https://graphics.straitstimes.com/STI/STIMEDIA/Interactives/2015/10/35-years-of-ict/supercharging-singapore/the-2000s.html\">Timeline of Internet in SIngapore",
+            "<a href=\"https://www.imda.gov.sg/how-we-can-help/wireless-at-sg\">About Wireless@SG",
+            "<a href=\"https://www.imda.gov.sg/assets/9a4b742c-3a3f-4ce7-ae22-b5bb421fcdfb.pdf\">List of hotspots of Wireless@SG</a>", 
+            "<a href=\"https://zym.sg/faq/about-zym/\">Zym's network operator under FAQs</a>", 
+            "<a href=\"https://www.circles.life/sg/blog/top-20-most-asked-questions-about-sim-only-plans-answered/\">CirclesLife's network operator under qn17</a>",
+            "<a href=\"https://www.physics.nus.edu.sg/faculty/tan-tiong-gie-bernard/\">Image of Professor Bernard Tan Tiong Gie</a>",
+            "<a href=\"https://www.linkedin.com/posts/kirtiyadav11_dialup-broadband-internet-activity-7351182196876984320-cyfk\">Image of Dialup vs ADSL broadband</a>",
+            "<a href=\"https://eservice.imda.gov.sg/wirelessSGx/\">Logo of Wireless@SG</a>",
+            "<a href=\"https://www.tech.gov.sg/products-and-services/for-citizens/digital-services/singpass/\">Logo of Singpass</a>"
+
+        ]
+        }
+    ]
+}
