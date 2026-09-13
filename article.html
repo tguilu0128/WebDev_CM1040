@@ -14,16 +14,20 @@
 
     <div id="article"></div>
 
-    <script id="article-card-template" type="text/x-handlebars-template">
-
-        <article onclick="window.location.href='article.html?id={{id}}'">
-
+    <script id="article-template" type="text/x-handlebars-template">
+        <article>
             <h2>{{title}}</h2>
-
-            <p>{{description}}</p>
-
+            {{#each content}}
+                {{#if this.type}}
+                    <div class="article-image">
+                        <img src="{{this.src}}" alt="{{this.alt}}">
+                        <p class="caption">{{this.caption}}</p>
+                    </div>
+                {{else}}
+                    <p>{{{this}}}</p>
+                {{/if}}
+            {{/each}}
         </article>
-
     </script>
     <a href="index.html">Return to Main Page</a>
 

@@ -37,8 +37,7 @@ if (main) {
                 "<p>Sorry, there is an error with the website data.</p>";
             return;
         }
-        const templateElement =
-                document.getElementById("article-card-template");
+            const templateElement = document.getElementById("article-card-template");
 
             const template = templateElement.innerHTML;
 
@@ -47,13 +46,7 @@ if (main) {
 
             data.mainpage.forEach(article => {
 
-                main.innerHTML += `
-                   <article onclick="window.location.href='article.html?id=${article.id}'">
-                        <h2>${article.title}</h2>
-                        <p>${article.description}</p>
-                        <p>Click to Read More.</p>
-                    </article>
-                `;
+                 main.innerHTML += compile(article);
 
             });
 
@@ -78,32 +71,11 @@ if (articleList) {
                 return;
         }
             
-                articleList.innerHTML += `
-                    <article>
+               const templateElement = document.getElementById("article-template");
+const template = templateElement.innerHTML;
+const compile = Handlebars.compile(template);
 
-                    <h2>${article.title}</h2>
-
-                    ${article.content.map(item => {
-
-                        if (typeof item === "string") {
-                            return `<p>${item}</p>`;
-                        }
-
-                        if (item.type === "image") {
-                            return `
-                                <div class="article-image">
-                                    <img src="${item.src}" alt="${item.alt}">
-                                    <p class="caption">${item.caption}</p>
-                                </div>
-                            `;
-                        }
-
-                    }).join("")}
-
-                    
-
-                </article>
-            `;
+articleList.innerHTML = compile(article);
 
 
     });
